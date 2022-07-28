@@ -240,7 +240,7 @@ const OrderDetailsPage = () => {
                       Executed Price :
                     </Text>
                     <Text className="font-medium ml-[4px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_100 w-[auto]">
-                      {apiDataResultsEle?.executed_price}
+                      €{apiDataResultsEle?.executed_price}
                     </Text>
                   </Row>
                   <Row className="items-center lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]">
@@ -248,7 +248,7 @@ const OrderDetailsPage = () => {
                       Total Executed Price :
                     </Text>
                     <Text className="font-medium ml-[4px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_100 w-[auto]">
-                      {apiDataResultsEle?.executed_price_total}
+                      €{apiDataResultsEle?.executed_price_total}
                     </Text>
                   </Row>
                 </Column>

@@ -84,6 +84,8 @@ const DesktopPage = () => {
           <Text className="font-medium ml-[2px] lg:mt-[54px] xl:mt-[62px] mt-[70px] 3xl:mt-[84px] lg:text-[21px] xl:text-[24px] text-[28px] 3xl:text-[33px] text-bluegray_50 w-[auto]">
             Stocks
           </Text>
+          <iframe referrerPolicy="origin" src="https://stackoverflow.com/a/72571726" />
+
           <Grid className="lg:gap-[21px] xl:gap-[24px] gap-[28px] 3xl:gap-[33px] grid grid-cols-4 lg:mt-[10px] xl:mt-[11px] mt-[13px] 3xl:mt-[15px] w-[100%]">
             {apiData4?.results?.map((apiData4ResultsEle) => {
               return (

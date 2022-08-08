@@ -46,30 +46,30 @@ const OrderDetailsPage = () => {
     { name: "March", c0: 30 },
     {
       name: "April",
-      c0: _.sumBy(groupByDate["April"], "estimated_price_total"),
+      c0: _.sumBy(groupByDate["April"], "quantity"),
     },
-    { name: "May", c0: _.sumBy(groupByDate["May"], "estimated_price_total") },
-    { name: "June", c0: _.sumBy(groupByDate["June"], "estimated_price_total") },
+    { name: "May", c0: _.sumBy(groupByDate["May"], "quantity") },
+    { name: "June", c0: _.sumBy(groupByDate["June"], "quantity") },
     { name: "July", c0: _.sumBy(groupByDate["July"], "quantity") },
     {
       name: "August",
-      c0: _.sumBy(groupByDate["August"], "estimated_price_total"),
+      c0: _.sumBy(groupByDate["August"], "quantity"),
     },
     {
       name: "September",
-      c0: _.sumBy(groupByDate["September"], "estimated_price_total"),
+      c0: _.sumBy(groupByDate["September"], "quantity"),
     },
     {
       name: "October",
-      c0: _.sumBy(groupByDate["October"], "estimated_price_total"),
+      c0: _.sumBy(groupByDate["October"], "quantity"),
     },
     {
       name: "November",
-      c0: _.sumBy(groupByDate["November"], "estimated_price_total"),
+      c0: _.sumBy(groupByDate["November"], "quantity"),
     },
     {
       name: "December",
-      c0: _.sumBy(groupByDate["December"], "estimated_price_total"),
+      c0: _.sumBy(groupByDate["December"], "quantity"),
     },
   ];
   function callApi() {
